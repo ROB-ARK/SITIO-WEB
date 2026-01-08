@@ -9,3 +9,11 @@ h1 {
 p {
     color: #333333;
 }
+#encabezado{
+    background-color: darkcyan;
+    min-height: 200px;
+    height: auto;
+}
+#encabezado h1{
+    color: black;
+}
