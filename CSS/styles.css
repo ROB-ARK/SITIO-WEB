@@ -13,16 +13,21 @@ p {
     background-color: darkcyan;
     min-height: 200px;
     height: auto;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(40, 87, 18, 0.5);
 }
-#encabezado h1{
-    color: black;
-}
+
 #encabezado .encabezado1{
     color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #encabezado .encabezado2{
     color: aquamarine;
 }
 #encabezado .encabezado3{
     color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
