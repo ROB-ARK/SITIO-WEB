@@ -1,16 +1,17 @@
 body {
-    background-color: antiquewhite;
+    background-color: #f5e6d3;
 }
 
 h1 {
-    color: #2c7be5;
+    color: #c65d3b;
 }
 
 p {
-    color: #333333;
+    color: #4a3b2f;
 }
-#encabezado{
-    background-color: rgb(157, 216, 203);
+
+#encabezado {
+    background-color: #e0b084;
     min-height: 60px;
     width: 100%;
     margin: 0 auto;
@@ -20,59 +21,76 @@ p {
     align-items: center;
     gap: 20px;
 }
-.logo{
+
+.logo {
     width: 10%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .logo img {
     width: 100%;
 }
-.menu{
-    width: 80%;
+
+.menu {
+    width: 70%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.menu ul{
+
+.menu ul {
     list-style: none;
     margin: 0;
     padding: 0%;
-    background-color: rgb(184, 175, 156);
+    background-color: #d4a373;
 }
-.menu ul li{
+
+.menu ul li {
     float: left;
 }
-.menu ul li a{
+
+.menu ul li a {
     display: block;
-    color: rgb(9, 53, 53);
+    color: #5a2d0c;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: #fff;
-    background-color: #2c7be5;
+    background-color: #b4532a;
 }
-.redes{
-    width: 10%;
+
+.redes {
+    width: 15%;
     height: 100%;
-    background-color: rgb(212, 0, 255);
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 3px;
 }
-#encabezado .encabezado1{
-    color: aqua;
+.redes img {
+    height: 70%;
+    max-height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
+#encabezado .encabezado1 {
+    color: #8b4513;
     font-family: Arial, Helvetica, sans-serif;
 }
-#encabezado .encabezado2{
-    color: aquamarine;
+
+#encabezado .encabezado2 {
+    color: #a0522d;
 }
-#encabezado .encabezado3{
-    color: antiquewhite;
+
+#encabezado .encabezado3 {
+    color: #fdf1e1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
