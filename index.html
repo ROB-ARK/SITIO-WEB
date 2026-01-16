@@ -13,6 +13,9 @@
             <div class="logo"><img src="IMAGES/Fisio.jpg" alt="logo"></div>
             <div class="menu">
                 <ul>
+                    <li><a href="#"><button onclick="mostrarAlerta()">Mostrar alerta</button></a></li>
+                    <li><a href=""></a><button onclick="suma()">la suma de los numeros</button></li>
+                    <li><a href=""></a><button onclick="sumaParam(20,12)">los numeros son</button></li>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Leciones</a></li>
                     <li><a href="#">Auto cuidado</a></li>
@@ -57,11 +60,18 @@
     <div class="contenedor2">
     <h2>¿Qué es la fisioterapia?</h2>
     <p>La fisioterapia es una disciplina de la salud dedicada a prevenir, tratar y rehabilitar lesiones o disfunciones del cuerpo humano. Su objetivo es mejorar la movilidad, aliviar el dolor y recuperar la funcionalidad física del paciente.</p>
+        <ul>
+         <input type="number" name="val1" id="val1">
+         <input type="number" name="val2" id="val2">
 
+
+         <button onclick="sumarInput()">Calcular</button>
+         <input type="text" name="res" id="mensaje">
+        </ul>
     <h2 class="unoss">¿Qué hace un fisioterapeuta?</h2>
     <p class="doss">Un fisioterapeuta evalúa, diagnostica y aplica tratamientos personalizados, como ejercicios terapéuticos, técnicas manuales y programas de rehabilitación, para ayudar al paciente a recuperar su bienestar físico y prevenir futuras lesiones.</p>
 </div>
-
+<script src="./JS/funciones.js"></script>
 
 </body>
 
